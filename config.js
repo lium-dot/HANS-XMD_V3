@@ -8,8 +8,8 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'HansTz&WgxnkZQD#515Qpq8sP_p1tdq8TUxkBompvU1xWFg-kBdUjQhgTmE',
-    PREFIXE: process.env.PREFIX || "¶",
+module.exports = { session: process.env.SESSION_ID || 'HansTz&2ItlySZC#r4vi8K_3mQYeFEv3v5TZQ62PGq1IZt4BpSKUgdMzQIg',
+    PREFIXE: process.env.PREFIX || ".",
     OWNER_NAME: process.env.OWNER_NAME || "★Ꭿ☼︎ℒ☼︎ℒ✩ℰ✫ℕ♫",
     NUMERO_OWNER : process.env.NUMERO_OWNER || " 254758443111",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "no",
@@ -21,10 +21,10 @@ module.exports = { session: process.env.SESSION_ID || 'HansTz&WgxnkZQD#515Qpq8sP
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
     HEROKU_APY_KEY : process.env.HEROKU_APY_KEY ,
     ETAT : process.env.PRESENCE || 'typing',
-    CHATBOT : process.env.CHATBOT || 'off',
+    CHATBOT : process.env.CHATBOT || 'yes',
     AUTOREACT_STATUS : process.env.AUTOREACT_STATUS || 'no',
     DP : process.env.STARTING_BOT_MESSAGE || "no",
-    ADM : process.env.ANTI_DELETE_MESSAGE || 'no',
+    ADM : process.env.ANTI_DELETE_MESSAGE || 'yes',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
         ? "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway" : "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway",
