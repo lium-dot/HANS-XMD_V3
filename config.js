@@ -8,8 +8,8 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'HansTz&2ItlySZC#r4vi8K_3mQYeFEv3v5TZQ62PGq1IZt4BpSKUgdMzQIg',
-    PREFIXE: process.env.PREFIX || ".",
+module.exports = { session: process.env.SESSION_ID || 'HansTz&idE0mRAD#WSK4l_RClxeO4zJfM95r3tjUrjUE4iEHXm-4D_1Qx6w',
+    PREFIXE: process.env.PREFIX || "√",
     OWNER_NAME: process.env.OWNER_NAME || "★Ꭿ☼︎ℒ☼︎ℒ✩ℰ✫ℕ♫",
     NUMERO_OWNER : process.env.NUMERO_OWNER || " 254758443111",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "no",
